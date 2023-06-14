@@ -42,7 +42,8 @@ jobs:
             texlive-fonts-extra \
             texlive-latex-recommended \
             texlive-latex-extra \
-            texlive-science
+            texlive-science \
+            graphicsmagick-imagemagick-compat
 
       - name: "Build posters"
         run: make all

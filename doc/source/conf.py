@@ -16,7 +16,7 @@ from ansys_sphinx_theme import (
 project = "ansys_sphinx_theme"
 copyright = f"(c) {datetime.now().year} ANSYS, Inc. All rights reserved"
 author = "ANSYS, Inc."
-release = version = __version__
+release = version = "2023"
 
 # use the default ansys logo
 html_logo = ansys_logo_black

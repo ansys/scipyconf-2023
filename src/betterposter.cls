@@ -49,8 +49,8 @@
 
 \newcommand{\columnbackgroundcolor}{white}
 \newcommand{\columnfontcolor}{black}
-\newcommand{\maincolumnbackgroundcolor}{ansysBronze}
-\newcommand{\maincolumnfontcolor}{white}
+\newcommand{\maincolumnbackgroundcolor}{ansysGold}
+\newcommand{\maincolumnfontcolor}{black}
 
 %% Graphics
 \RequirePackage{graphicx}
@@ -223,9 +223,9 @@
 
 %% Institution command
 \newcommand{\institution}[1]{
-\vspace{-1em}
+\vspace{-.25em}
 {\color{gray}
 #1
-}\\[-1.0em]
+}\\[-2.0em]
 
 }

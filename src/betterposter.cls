@@ -44,6 +44,9 @@
 \definecolor{theory}{RGB}{26,35,126}
 \definecolor{methods}{RGB}{140,22,22}
 \definecolor{intervention}{RGB}{255,213,79}
+\definecolor{ansysGold}{RGB}{255, 183, 27}
+\definecolor{ansysBronze}{RGB}{200, 146, 17}
+\definecolor{ansysBlue}{RGB}{30, 109, 220}
 
 \newcommand{\columnbackgroundcolor}{white}
 \newcommand{\columnfontcolor}{black}

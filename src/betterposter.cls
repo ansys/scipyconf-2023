@@ -46,11 +46,12 @@
 \definecolor{ansysGold}{RGB}{255, 183, 27}
 \definecolor{ansysBronze}{RGB}{200, 146, 17}
 \definecolor{ansysBlue}{RGB}{30, 109, 220}
+\definecolor{imperialblue}{RGB}{0,62,116}
 
 \newcommand{\columnbackgroundcolor}{white}
 \newcommand{\columnfontcolor}{black}
-\newcommand{\maincolumnbackgroundcolor}{ansysGold}
-\newcommand{\maincolumnfontcolor}{black}
+\newcommand{\maincolumnbackgroundcolor}{imperialblue}
+\newcommand{\maincolumnfontcolor}{white}
 
 %% Graphics
 \RequirePackage{graphicx}

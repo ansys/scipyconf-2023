@@ -39,7 +39,6 @@
 
 %% Colours
 \RequirePackage{xcolor}
-\definecolor{imperialblue}{RGB}{0,62,116}
 \definecolor{empirical}{RGB}{0,77,64}
 \definecolor{theory}{RGB}{26,35,126}
 \definecolor{methods}{RGB}{140,22,22}
@@ -50,7 +49,7 @@
 
 \newcommand{\columnbackgroundcolor}{white}
 \newcommand{\columnfontcolor}{black}
-\newcommand{\maincolumnbackgroundcolor}{imperialblue}
+\newcommand{\maincolumnbackgroundcolor}{ansysBronze}
 \newcommand{\maincolumnfontcolor}{white}
 
 %% Graphics
@@ -60,7 +59,6 @@
 \RequirePackage{amsmath}
 \RequirePackage{amsfonts}
 \RequirePackage{amssymb}
-
 
 
 %%%% SIZE COMMANDS

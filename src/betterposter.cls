@@ -50,8 +50,8 @@
 
 \newcommand{\columnbackgroundcolor}{white}
 \newcommand{\columnfontcolor}{black}
-\newcommand{\maincolumnbackgroundcolor}{imperialblue}
-\newcommand{\maincolumnfontcolor}{white}
+\newcommand{\maincolumnbackgroundcolor}{ansysGold}
+\newcommand{\maincolumnfontcolor}{black}
 
 %% Graphics
 \RequirePackage{graphicx}

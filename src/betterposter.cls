@@ -48,8 +48,8 @@
 \definecolor{ansysBlue}{RGB}{30, 109, 220}
 \definecolor{imperialblue}{RGB}{0,62,116}
 
-\newcommand{\columnbackgroundcolor}{white}
-\newcommand{\columnfontcolor}{black}
+\newcommand{\columnbackgroundcolor}{black}
+\newcommand{\columnfontcolor}{white}
 \newcommand{\maincolumnbackgroundcolor}{ansysGold}
 \newcommand{\maincolumnfontcolor}{black}
 

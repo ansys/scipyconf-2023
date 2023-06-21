@@ -216,7 +216,7 @@
 
 %% Author command
 \renewcommand{\author}[1]{
-{\color{gray}\fontsizeauthor
+{\color{lightgray}\fontsizeauthor
 #1
 }\\[-1.0em]
 

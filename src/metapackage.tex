@@ -64,17 +64,30 @@ to be installed. This trick can be used to install all the desired projects of a
 \section{\includegraphics[height=\fontcharht\font`\S]{img/general/slash.png} Example use case}
 Say you have a Python metapackage called \textit{my-package}. By installing it, users would get your
 defined dependencies, and also have access to additional targets you define. See the graph on the main
-section of this poster. You could also pin down specific versions of those packages of your own choice.
+section of this poster.
 
+\section{\includegraphics[height=\fontcharht\font`\S]{img/general/slash.png} File structure}
+\vspace{-2cm}
+\begin{itemize}
+    \item A \texttt{src/<my-package>} folder with an \texttt{\_\_init\_\_.py} file. This file could simply contain your metapackage version.
+    \item A build system requirements file (i.e. \texttt{pyproject.toml}, \texttt{setup.py}), with your dependencies and extra targets. Dependency versions can be pinned down (for example, \texttt{numpy==1.21.0}) or flexible (\texttt{numpy}).
+\end{itemize}
 
 %% This fills the space between the content and the logo
 \vfill
 
 }{
 %%%%%%%% RIGHT COLUMN
-\section{\includegraphics[height=\fontcharht\font`\S]{img/general/slash.png} Pending sections}
-Lorem ipsum.
+\section{\includegraphics[height=\fontcharht\font`\S]{img/general/slash.png} Benefits of using a\\ metapackage}
+\vspace{-2cm}
+\begin{itemize}
+    \item \underline{\textbf{One-stop shop}}: all your Python packages are delivered together and are easily made available to end-users.
+    \item \underline{\textbf{Ensure dependencies compatibility}}: we ensure no incompatibility issues amongst its dependencies occur (by using CI/CD for building the package).
+    \item \underline{\textbf{Easier install process}}: rather than installing each package individually, getting all of them together with one install command makes your life easier.
+    \item \underline{\textbf{Multiple targets}}: the metapackage does not only need to have \textit{required} dependencies. It may also have extra targets (i.e. additional dependencies) for other purposes!
+    \item \underline{\textbf{Pinned versions}} (optional): dependency updates sometimes leads to incompatibilities which users are not aware of. By having a metapackage that pins down your dependencies to a certain version, you make sure that for a given version your scripts are compatible with all the dependent libraries. This makes dependency handling much easier for end users.
 
+\end{itemize}
 \vfill
 
 %% Institution logo

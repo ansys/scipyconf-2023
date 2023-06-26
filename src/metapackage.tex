@@ -14,10 +14,12 @@
 
 \maincolumn{
 %%%% Main space
+\vspace{-10cm}
+Target mechanism\\[1.5cm]
+\includegraphics[width=\textwidth]{img/metapackage/deps}\\
+\vspace{-2cm}
+File structure \hspace{8cm} \vspace{-1.5cm} \includegraphics[width=.30\textwidth]{img/metapackage/file_structure}\\
 
-\textbf{Main finding} goes here,
-\\translated into \textbf{plain English}.
-\\\textbf{Emphasize} the important words.
 }{
 %%%% Bottom space
 
@@ -54,9 +56,11 @@ Python \textit{metapackages} are empty Python libraries that only contain a vers
 However, they use their dependencies section to declare all the required libraries that need
 to be installed. This trick can be used to install all the desired projects of a large community.
 
-\section{\includegraphics[height=\fontcharht\font`\S]{img/general/slash.png} Conclusion}
+\section{\includegraphics[height=\fontcharht\font`\S]{img/general/slash.png} Example use case}
+Say you have a Python metapackage called \textit{my-package}. By installing it, users would get your
+defined dependencies, and also have access to additional targets you define. See the graph on the main
+section of this poster. You could also pin down specific versions of those packages of your own choice.
 
-This is a great poster format!
 
 %% This fills the space between the content and the logo
 \vfill

@@ -2,7 +2,8 @@
 
 ## Project Lead
 
-* [Jorge Martínez Garrido](https://github.com/jorgepiloto)
+* [Jorge Martínez](https://github.com/jorgepiloto)
+
 
 ## Individual Contributors
 
